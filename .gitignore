@@ -1,0 +1,40 @@
+
+# === Colab & Notebook ===
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# === Python cache / virtualenv ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+env/
+ENV/
+
+# === Colab temporary files ===
+# (Colab sometimes mounts Google Drive to /content/drive)
+drive/
+content/drive/
+content/sample_data/
+sample_data/
+
+# === System / OS ===
+.DS_Store
+Thumbs.db
+.config/
+
+# === Logs ===
+*.log
+*.out
+*.err
+
+# === Jupyter autosave ===
+*.ipynb_autosave
